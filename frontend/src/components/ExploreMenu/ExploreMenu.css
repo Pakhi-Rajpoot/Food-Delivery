@@ -44,3 +44,8 @@
     background-color: #e2e2e2;
     border: none;
 }
+.explore-menu-list-item .active{
+    border: 2px solid #747474;
+    padding:1px ;
+    transition: 0.001s;
+}
