@@ -1,6 +1,7 @@
 import { createContext } from "react"
-export const StoreContext = createContext(null)
 import { food_list } from "../assets/assets"
+
+export const StoreContext = createContext(null)
 
  const StoreContextProvider = (props)=>{
 
@@ -19,3 +20,4 @@ import { food_list } from "../assets/assets"
 
  )
 }
+export default StoreContextProvider;
